@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Cinema {
     public static Place checkEmptyPlace(Place[][] places) {
-        int row = 1, column = 1;
+        int row = 0, column = 0;
         boolean rs = false;
         for (int i = 0; i < places.length; i++) {
             for (int j = 0; j < places[i].length; j++) {
